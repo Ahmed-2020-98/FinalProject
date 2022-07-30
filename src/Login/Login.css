@@ -1,0 +1,16 @@
+.content{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+.left , .right{
+    
+    height: 500px;
+
+}
+.left{
+    background: #847676;
+}
+.right{
+    background: #aa5b5b;
+}

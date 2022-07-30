@@ -1,10 +1,9 @@
 import './App.css';
-import Navbar from './navbar/navbar';
+import Login from './Login/Login';
 function App() {
   return (
-    <div className="App">
-  
-    <Navbar />
+    <div className='container'>
+      <Login/>
     </div>
   );
 }
