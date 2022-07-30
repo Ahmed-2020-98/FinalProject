@@ -6,7 +6,7 @@ export default function Login() {
     <div className='login'>
         <div className='container'>
             <div className='content '>
-                <div className='left bg-primary'></div>
+                <div className='left bg-danger '></div>
                 <div className='right bg-success'></div>
             </div>
             
