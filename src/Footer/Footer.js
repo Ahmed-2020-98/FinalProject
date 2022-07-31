@@ -1,12 +1,14 @@
 import React from 'react'
 import './Footer.css'
-import { FaApple,FaGooglePlay } from "react-icons/fa";
+import { FaApple,FaGooglePlay,FaCcMastercard } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsArrowRightSquareFill } from "react-icons/bs";
+import { BsArrowRightSquareFill,BsInstagram } from "react-icons/bs";
+import { RiFacebookFill ,RiVisaLine} from "react-icons/ri";
+import { GrLinkedinOption } from "react-icons/gr";
 export default function Footer() {
   return (
     <>
-    <footer className='footer'>
+    <footer className='footer '>
         <div className='container'>
             <div className='footerContent'>
                 <div className='footerUpper'>
@@ -41,7 +43,20 @@ export default function Footer() {
                         <p><MdOutlineEmail className='MdOutlineEmail'/><input type="text" className='inputFooter' placeholder='Email-(ex@gmail.com)'/> <BsArrowRightSquareFill className='BsArrowRightSquareFill'/></p>
                     </div>
                 </div>
-                <div className='footerLower'>footer lower</div>
+
+
+                <div className='footerLower'>
+                    <div>
+                        <BsInstagram className='mx-3 fs-3'/>
+                        <RiFacebookFill className='mx-3 fs-3'/>
+                        <GrLinkedinOption className='mx-3 fs-3'/>
+                    </div>
+                    <div>©2022 - Raya shop | All right reserved</div>
+                    <div>
+                        <RiVisaLine className='mx-3 fs-1'/>
+                        <FaCcMastercard  className='mx-3 fs-1'/>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

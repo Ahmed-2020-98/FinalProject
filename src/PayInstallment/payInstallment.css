@@ -1,0 +1,9 @@
+.z {
+    width: 1000px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.z p{
+    color: #726e6ebc;
+}
