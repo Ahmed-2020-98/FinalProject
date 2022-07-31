@@ -1,0 +1,32 @@
+footer.footer{
+    background-color: #001C46;
+}
+.footerContent{
+display: flex;
+flex-direction: column;
+
+}
+.footerUpper{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+color: #fff;
+}
+.footerUpper :nth-child(1){
+  
+   
+}
+.footerUpper :nth-child(2){
+
+}
+.footerUpper :nth-child(3){
+
+}
+.footerUpper :nth-child(4){
+
+}
+.footerUpper :nth-child(5){
+
+}
+.footerLower{
+
+}
