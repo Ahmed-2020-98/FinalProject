@@ -1,18 +1,18 @@
 import React from 'react'
 import './Login.css';
-
+import './LoginResposive.css'
 export default function Login() {
   return (<>
     <div className='login'>
         <div className='container'>
-      <div className='link3'><a href='#'> back</a></div>
+      <div className='link3'><span>&lt;</span><a href='#'> Back</a></div>
             <div className='content '>
                 <div className='left'>
                   <div className='imgbg d-flex'>
                     <h1>Don’t Have An <br/> Account?</h1>
-                    <p>No Problem, Create an Account & Enjoy;</p>
+                    <p>No Problem, Create an Account &amp; Enjoy;</p>
                     <ul>
-                      <li>// Fast & Easy checkout</li>
+                      <li>// Fast &amp; Easy checkout</li>
                       <li>// Order Tracking</li>
                       <li>// Installments Tracking</li>
                     </ul>

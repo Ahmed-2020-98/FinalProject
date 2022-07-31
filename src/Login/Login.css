@@ -1,6 +1,17 @@
 .link3{
     margin-top: 30px;
 }
+.link3 span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #006CB7;
+    padding-top: 2px;
+}
+.link3 a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #006CB7;
+}
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -8,7 +19,7 @@
 
 .left , .right{
     padding-top: 100px;
-    height: 650px;
+    height: 85vh;
 
 }
 .left{
@@ -57,12 +68,12 @@ margin-top: 8px;
 }
 .right input[type="text"],input[type="password"]{
 
-    width: 568px;
+    width: 190%;
     padding: 10px;
     border-radius: 20px;
     border:1px solid rgba(99, 99, 99, 0.426);
     margin-top: 20px;
-    
+    margin-left: -50px;
 }
 span{
     color: #D30000;
@@ -94,3 +105,4 @@ footer{
 footer a{
     color: #006CB7;
 }
+

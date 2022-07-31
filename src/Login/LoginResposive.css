@@ -1,0 +1,134 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left , .right{
+        padding-top: 20px;
+       
+    }
+    .imgbg{
+        width:100%;
+        
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left , .right{
+        padding-top: 20px;
+        height: 40vh;
+       
+    }
+    .right{
+        margin-bottom: 50px;
+    }
+    .imgbg{
+        width:100%;
+        justify-content: flex-start;
+        padding-top: 95px;
+        
+    }
+    .imgbg h1 ,p ,li{
+        font-size: 12px;
+    }
+    .button1{
+        width: 150px;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #006CB7;
+        font-weight: 600;
+        padding: 3px 0;
+        
+    }
+    .right input[type="text"],input[type="password"]{
+
+        width: 140%;
+        padding: 10px;
+        border-radius: 20px;
+        border:1px solid rgba(99, 99, 99, 0.426);
+        margin-top: 20px;
+        margin-left: -50px;
+    }
+    .button2{
+        margin-top: 20px;
+        width: 244px;
+        border-radius: 20px;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        padding: 11px 20px;
+        margin-top: 20px;
+    }
+    footer{
+        border-top: 1px solid #49525f56;
+        width: 100%;
+        padding-left: 0px;
+    }
+    footer a{
+        color: #006CB7;
+    }
+  }
