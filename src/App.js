@@ -7,10 +7,10 @@ import PayInstallment from './PayInstallment/PayInstallment';
 function App() {
   return (
     <div>
-      {/* <Logi n/> */}
-      {/* <Register/> */}
-      {/* <Footer/> */}
+      <Login/>
+      <Register/>
       <PayInstallment/>
+      <Footer/>
     </div>
   );
 }
