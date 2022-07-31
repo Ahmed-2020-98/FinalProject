@@ -2,15 +2,43 @@ import React from 'react'
 import './Login.css';
 
 export default function Login() {
-  return (
+  return (<>
     <div className='login'>
         <div className='container'>
+      <div className='link3'><a href='#'> back</a></div>
             <div className='content '>
-                <div className='left bg-danger '></div>
-                <div className='right bg-success'></div>
+                <div className='left'>
+                  <div className='imgbg d-flex'>
+                    <h1>Don’t Have An <br/> Account?</h1>
+                    <p>No Problem, Create an Account & Enjoy;</p>
+                    <ul>
+                      <li>// Fast & Easy checkout</li>
+                      <li>// Order Tracking</li>
+                      <li>// Installments Tracking</li>
+                    </ul>
+                    <button className='btn btn-light border-2 button1'>Create Account</button>
+                  </div>
+                </div>
+                <div className='right'>
+                  <h1>LOGIN</h1>
+                  <h2>Login to your account for a faster checkout process</h2>
+                <form>
+                  <input type="text" className='form-control' placeholder='Enter Email'/>
+                  {/* <span>This field is required</span> */}
+                  <input type="password" className='form-control' placeholder='Enter Password'/>
+                  {/* <span>This field is required</span> */}
+                  <div className='link'><a href='#'>Forgot Password?</a></div>
+                  <button className='btn btn-primary button2'>Login to My Account</button>
+                </form>
+                </div>
             </div>
-            
         </div>
+        
     </div>
+            <footer>
+              <p>Any personal information you give us will be handled according to our <a href=''>Privacy Policy</a></p>
+                
+            </footer>
+            </>
   )
 }
