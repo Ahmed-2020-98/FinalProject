@@ -30,3 +30,24 @@ color: #fff;
 .footerLower{
 
 }
+.FaApple{
+margin-right: 6px;
+margin-bottom: 6px;
+font-size: 20px;
+}
+.inputFooter{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.645);
+}
+.MdOutlineEmail{
+    opacity: .4;
+    font-size: 21px;
+}
+.BsArrowRightSquareFill{
+    font-size: 30px;
+    background: #fff;
+    fill: #006CB7;
+    border: none;
+    border-radius: 10px;
+}
